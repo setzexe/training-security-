@@ -15,3 +15,9 @@ To put in example how random but serious a vulnerability could be, consider the 
 These are a similar concept but moreso for digital systems and traffic like ports, servers, routers, firewalls, etc. Can you ensure you can trust these? 
 
 It is better to have a tight control on vendors or companies you work with. Better and smaller network is better than a bigger but worse one. Similarly, strict protocols and procedures are a must. When checking over this stuff, security should be part of the design process.
+
+## Software Providers
+
+Same concept, but software. Trust is a foundation of security; we trust the software we use typically. Every software installation questions our trust, but there are multiple ways to move forward with installations. Initial installation processes should verify a digital signature. Updates and patches on software is important too to prevent security trends. 
+
+Although open source is very trusted, it is not always immune. Compromising the source affects everyone using that source.
