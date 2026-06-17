@@ -18,3 +18,6 @@ Sometimes, apps will update themselves. These updates are relatively trust worth
 
 This still can come at risk though. While risk is lower, the scale of damage could be way more if an attack happen if any instance of that application is infected.
 
+# Zero Day
+
+This is the concept of attackers finding vulnerabilities before researchers or developers might. At zero day, this usually means the developers are not aware of this vulnerability (hence its existence) and they probably would have a difficult time fixing it. This puts the attackers at a day zero (prior setup) advantage.
