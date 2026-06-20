@@ -1,0 +1,39 @@
+# On Path Attacks
+
+**On Path** is the modern name for the **man in the middle** attacks. The attacker sits between two devices and watches for traffic. This attacker is responsible for seeing the data that is sent between devices and passing on information to a destination. The attacker might just be evesdropping, or they can do more malicious things like redirecting. The victim often will not know either as you trust the other device typically, although here someone is breeching that trust.
+
+**ARP (Address Resolution Protocol) spoofing** is a good example. The on-path attacks your local IP subnet and can join the middle of the ARP connection, which connects traffic to individual devices via MAC addresses on a network. Specifically, they can send packets signifying they are part of the ARP network when they really aren't (and the ARP cache will save this). So they will get packets when they should not.
+
+## On Path browser attack
+
+Also known as **man-in-the-browser**, this allows the attacker to perform this attack on the same device as the victim. Malware/trojans work as proxy's to send all traffic or data to another device. This has huge advantages to the attacker; since the data involved is working on the user's device, data is not encrypted since it does not believe it is being sent. This makes it very invisible to the victim.
+
+These can be awfully malicious. They might wait until the user does a specific thing because taking the data. As of late, this has been a big issue with **cryptocurrency**; user's would download malware but it would never do anything until a user would access any crypto wallet.
+
+# Replay Attack
+
+Useful information is sent across a network daily. Hackers want this information. If the user is someone the other device trusts, they will send more information.
+
+Replay attack means that an attacker will take legitimate data from a victim and resend (replay) it back to the other device on a network. The attacker eavesdrops on a network and captures something legit from the victim during network transit. The other device believes this information is coming from the victim but the attacker gets the response instead. 
+
+Stuff like Wireshark for header sniffing, XSS / phishing to install tracking / keylogging malware, cookie and header manipulating, and so on contribute to replay attack.
+
+## Examples
+
+- Credentials
+  - The attacker can intercept private credentials or session tokens. Replaying these back to the browser could allow the attacker to gain access to restricted accounts. 
+- Financial Fraud
+  - A payment / money transfer gets sent in detail. The attacker takes the detail and replay's it, potentially creating a dupe transaction.
+- IoT (Internet of Things) devices
+  - A lot of these devices have some sort of command that allows them to do stuff. Attackers can utilize these.
+- **Remote Keyless Entry**
+  - Very common. Car thieves capture the radio frequency of a key fob and replay it to unlock a vehicle.
+
+## Prevent
+
+Timestamps and accounting logs are important. If one request verifiably was sent back to back, that is fishy and can help with validity. 
+
+**Nonce** are like authentication tokens, or "challenge-reponses". The server generates it and gives it specifically to the user for authentication purposes. If requests do not have this nonce, it can not be legit.
+
+**Heavy encryption** end to end is an essential to stop easily visible data from getting out there.
+
