@@ -1,3 +1,11 @@
+# Malicious Code
+
+Very broad, but this is just as the name implies; malicious code. Code that can cause harm for the user. Executables, scripts, worms, etc.
+
+There are many techniques that do not require heavy technical skill; default credentials, brute force, social engineering, etc. This often is not the best for getting into well-secured systems. This is where code comes in. This requires alot more technical skill.
+
+The fact that there is so much malicious code means there needs to be alot of cybersecurity layers to back it up. Not only stuff regarding the main security controls but logical stuff like firewalls. Continuous patches / update. Antivirus. Secure computing habits. And the list goes on.
+
 # Malware
 
 Malware generally refers to software that is doing bad things to your system. Gathering and sending keystrokes to attackers, sending you advertisements, viruses, worms, anything bad.
