@@ -18,7 +18,7 @@ However, these third party vendors are still part of incident response. They can
 
 Cloud infrastructure typically refers to the coded side of the system, you describe it as code. What servers, networks, applications, exist in code? Much like regular application code, this can typically be modified to ones liking. 
 
-Similarly, the code can be used as a reference / blueprint for other code instances for consistency purposes. This is an important concept in cloud computing; versions of cloud can be consistent and perfect each time.]
+Similarly, the code can be used as a reference / blueprint for other code instances for consistency purposes. This is an important concept in cloud computing; versions of cloud can be consistent and perfect each time.
 
 ## Serverless architecture
 
@@ -39,3 +39,28 @@ These work together to act as the application; you usually do not act with the s
 These are scalable in cloud. You can have the client interact with one API gateway, which can talk to multiple microservices. And these are quite contained and secure in a sense that if one service gets affected, the others do not simply because they are not directly communicating to one another.
 
 # Network Infrastructure Concepts 
+
+These are more related to physical networks and how they are handled.
+
+## Physical Isolation
+
+Attackers might be able to move from device to device with some form of connection. **Isolating** these devcies, perhaps by an air gap or some switch, prevents attackers from moving across devices like this. If these devices need to talk to each other, they would use some connection that comes in particular for communication. But in terms of general connectivity, it is kept to a minimal.
+
+You could use this for multiple purposes; one switch / device might help one set of customers with a set of tools and another switch / device may do similar.
+
+This is also possible to be **logically** via **VLANs (Virtual Local Area Network)**. Devices can not communicate between VLANs without some network layer device / router.
+
+## SDN (Software Defined Networking)
+
+Networking devices have different functional places of operations. We mentioned these in a previous module; there are three **planes of operations**: the data plane, the control plane, and the management planes. These are segmentated into different logical units. These exist extremely well for cloud (the serverless architecture thing) and allows better ease-of-use on a single device.
+
+- Infrastructure layer / data plane
+  - Processes the network frames and packets
+  - Forwarding, encryption, NAT
+- Control Plane
+  - This data being transfered is managed by the control plane.
+  - The control plane manages routing and actions of the data plane.
+  - Session tables, NAT tables, etc.
+- Application layer / management plane
+  - Configure & manage the device itself.
+  - SSH, browser, API, etc.
