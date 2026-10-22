@@ -22,13 +22,13 @@ Virtualization runs many different operating systems on the same hardware (VMs).
 
 ## Application containerization
 
-To shy away from the problems that virtualization might bring, organizations might use containered environments. This allows multiple applications to run simultaneously from one piece of hardware. These containers have everything needed to run an application except for stuff revolving around the operating system. Since many of these containers can use the same OS, they are seperate from each other yet can use the same power. Very much more efficient. 
+To shy away from the problems that virtualization might bring, organizations might use containered environments. This allows multiple applications to run simultaneously from one piece of hardware. These containers have everything needed to run an application except for stuff revolving around the operating system. Since many of these containers can use the same OS, they are seperate from each other yet can use the same power. Very much more efficient.
 
 Containers are usually configured for one OS. You might have a different set of containers for another operating system.
 
 ## IoT (Internet of Things)
 
-These are things that connect to a network and can be used for day for day business. Sensors, doorbells, lighting, heating and cooling, etc. This also includes smart watches, health monitors, temp / lighting checkers, etc. It is important to mention that IoT manufacturers are **not typically security professionals.** 
+These are things that connect to a network and can be used for day for day business. Sensors, doorbells, lighting, heating and cooling, etc. This also includes smart watches, health monitors, temp / lighting checkers, etc. It is important to mention that IoT manufacturers are **not typically security professionals.**
 
 ## SCADA / ICS
 
@@ -38,7 +38,7 @@ This should be segmented heavily from the outside public. Access to this could p
 
 ## RTOS (Real-time Operating System)
 
-Windows, Linux, and most main used OS are non-deterministic operating system. There is no single process that can take use of all the resources from the machine at once for whatever purposes. Sometimes systems need this **RTOS (Real-time operating system)** to do certain things. Take breaking your vehicle suddenly; crashes would be alot more common if this was not possible. 
+Windows, Linux, and most main used OS are non-deterministic operating system. There is no single process that can take use of all the resources from the machine at once for whatever purposes. Sometimes systems need this **RTOS (Real-time operating system)** to do certain things. Take breaking your vehicle suddenly; crashes would be alot more common if this was not possible.
 
 Because these have real world use, these need to be properly available and maintained. These are extremely sensitive to security problems.
 
@@ -48,6 +48,6 @@ It might be difficult to access an OS running on an embedded sytem. This is hard
 
 ## High availability
 
-Availability is a core of the CIA triad. The more availability = the less likely for attacks. High availability is the concept of always being on and available. These may include multiple components to make work. 
+Availability is a core of the CIA triad. The more availability = the less likely for attacks. High availability is the concept of always being on and available. These may include multiple components to make work.
 
 Higher availibility does not always mean higher costs. There is always another contingency you could add; upgraded power, high-quality server components, etc.

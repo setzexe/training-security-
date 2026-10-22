@@ -1,4 +1,4 @@
-# Change Management 
+# Change Management
 
 When making a change to your local network, the scope of the change is usually on one computer. In a organizational world, changes often apply to entire systems. Upgrading software, patching applicatons, firewall configuration, etc. This also means that **changes can and will affect whatever is involved with what you are changing.**
 
@@ -9,6 +9,7 @@ This **does not** mean to always do changes. Too many updates that could be comp
 ## Change approval process
 
 There is a formal process for managing change to ideally avoid downtime, confusion, and mistakes.
+
 - Typically, people involved complete request forms that determine the purpose and scope of the change.
 - Schedule a date and time for that change
 - Determine what systems will be affected & the risk associated

@@ -28,9 +28,9 @@ Speed is a very important metric. All parts of the application contribute and th
 
 ## Scalability
 
-How quickly and easily can capacity be increased / decreased? Services might need to experience this multiple times throughout the day. 
+How quickly and easily can capacity be increased / decreased? Services might need to experience this multiple times throughout the day.
 
-A lack of scalability is usally caused by resource challenges. Maybe a lack of resources or misconfigured resources. 
+A lack of scalability is usally caused by resource challenges. Maybe a lack of resources or misconfigured resources.
 
 Scalability naturally requires monitoring / security relative to scaled content.
 
@@ -54,7 +54,7 @@ These, once again, are very important to security engineering and should be cons
 
 ## Patch availability
 
-Software is not usually static. Bug fixes are needed, security updates, etc. This is often the first task after installation because we naturally want to use the most up to date software. 
+Software is not usually static. Bug fixes are needed, security updates, etc. This is often the first task after installation because we naturally want to use the most up to date software.
 
 Most companies have regular, scheduled patch dates. But it also could be the case that some organizations might not patch often, which *is* a concern.
 

@@ -11,8 +11,9 @@ The main objective of buffer overflow is to be able to repeat a function (or a s
 Race condition is when two events occur at the same time and the application does not really know what to do based on this.
 
 A real world example of this (and quite a notable one) is the *Spirit* Mars Rover in 2004. The race condition worked like this:
+
 - The rover had an automatic safe mode reboot sequence if it thought that something was going wrong.
 - At the same time, the rover has to naturally save data in its buffer / flash memory.
-- The OS was running these two at the same time and it got out of order. 
+- The OS was running these two at the same time and it got out of order.
   - The reboot sequence check would see the file system as a threat and would reboot; this would happen everytime it did reboot.
   - Thus, the rover was stuck in a reboot loop.

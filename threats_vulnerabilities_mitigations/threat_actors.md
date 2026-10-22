@@ -24,9 +24,8 @@ In legitimate government cases; like with the U.S., this applies heavily and has
 
 **Hacktivist**'s are hacker's with a purpose related to activism. These are often also external, but can breach and seem internal. These hackers usually are very sophisticated. Their resources may be limited but they usually have very specific hacking knowledge.
 
-**Insider threat's** are. Insider threat's. They have insider knowledge and usually are motivated by power gain, financial, or revenge. They will use organization resources to screw you over. They may only have intermediate knowledge but they have your resoures. 
+**Insider threat's** are. Insider threat's. They have insider knowledge and usually are motivated by power gain, financial, or revenge. They will use organization resources to screw you over. They may only have intermediate knowledge but they have your resoures.
 
 **Organized crime** are organized professional criminals that are motivated by money. These are usually external and very sophisticated; you may have one person provided scripts, someone providing resources, someone running these attacks, etc.
 
 **Shadow IT** is moreso internal sabatoge. It might not be malicious, but it might affect your current IT organization. Shadow IT might build their own infrastructure around an existing one, which can put up roadblocks. The budget of this group is typically limited.
-

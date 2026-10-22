@@ -16,7 +16,7 @@ Firewalls usually help seperate these.
 
 ## Attack Surfaces
 
-We need to know how many possible ways that an attacker could enter. A lot can cause a vulnerability; application code / injection, open ports, bad authentication, or human error. Finding ways that attackers could insert themselves is essentials. 
+We need to know how many possible ways that an attacker could enter. A lot can cause a vulnerability; application code / injection, open ports, bad authentication, or human error. Finding ways that attackers could insert themselves is essentials.
 
 The less methods on an attack surface = less potential attacks. Audit code, block ports on a firewall, and monitoring helps mitigate these.
 

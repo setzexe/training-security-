@@ -9,6 +9,7 @@ Sometimes segmentation is mandatory for security / change / procedure purposes. 
 ## Access Control List
 
 These are lists that just allow or disallow traffic. You can toggle (in groups if needed);
+
 - Source IP & Destination IP (essential restricting access to network devices)
   - This could prevent non-admin access when needed
 - Port Number

@@ -2,13 +2,13 @@
 
 Mitigation is the process of reducing the impact of a security event or a potential security event.
 
-Below are common techniques for this. 
+Below are common techniques for this.
 
-## Patching 
+## Patching
 
 This can mitigate attacks before they even can be conceived. These are incredibly important for system stability and security.
 
-Incremental updates at predictable times are important for user availability as well. 
+Incremental updates at predictable times are important for user availability as well.
 
 For personal updating, many third-party update tools exist to find the proper updates and driver updates for a device.
 
@@ -36,7 +36,7 @@ These performs a posture assessment on devices when they access a network; is th
 
 ## Decommissiong
 
-Not as common, but this refers to when we stop using a piece of technology. While it is easy to just store it to the side or throw it away, it is possible that these could still contain vital information that could still be accessed, especially now that it is out of maintainence. 
+Not as common, but this refers to when we stop using a piece of technology. While it is easy to just store it to the side or throw it away, it is possible that these could still contain vital information that could still be accessed, especially now that it is out of maintainence.
 
 The data is mostoly related with storage devices; SSD, hard drive, USB drive, etc. As for the physical component / device, there are many options. Perhaps another organization could recycle and find use in it. Otherwise, destroying it is completely fine too.
 
@@ -69,15 +69,15 @@ Encrypting network traffic when necessary is essential as well. VPNs exist for t
 
 ## The endpoint
 
-Hardening a device's endpoint so that data can leave successfully is important, making it necessary to stop attackers from both outbound and inbound attacks. 
+Hardening a device's endpoint so that data can leave successfully is important, making it necessary to stop attackers from both outbound and inbound attacks.
 
 It is important to point out that there are so many different platforms like mobile or desktop. Protection will be different and multi-faceted.
 
 ## Endpoint detection and response (EDR)
 
-It is estimated that there are around 1 million malware varients created a day. To combat this, **EDR** is implemented. These are automated and monitor the endpoint to detect and respond to potential malware/cyber threats. 
+It is estimated that there are around 1 million malware varients created a day. To combat this, **EDR** is implemented. These are automated and monitor the endpoint to detect and respond to potential malware/cyber threats.
 
-This is different from a traditional anti-virus. Anti-virus's block known cyber threats. EDR's detect things based on behavioral analysis as well; is this traffic supposed to happen? If the EDR does not think so, it prevents the traffic from entering. The EDR can act instantly; there is no need for outside approval. This can help monitor root cause, new application processes, etc. 
+This is different from a traditional anti-virus. Anti-virus's block known cyber threats. EDR's detect things based on behavioral analysis as well; is this traffic supposed to happen? If the EDR does not think so, it prevents the traffic from entering. The EDR can act instantly; there is no need for outside approval. This can help monitor root cause, new application processes, etc.
 
 ## Host-based firewall
 
@@ -85,7 +85,7 @@ These are software-based firewalls that can allow / disallow certain traffic on 
 
 ## Finding intrusions
 
-It is important to understand and consistently look out for what potential intrusions might be possible on a device so that you know what to secure. Attackers will try to attack from these places. 
+It is important to understand and consistently look out for what potential intrusions might be possible on a device so that you know what to secure. Attackers will try to attack from these places.
 
 **HIPS (Host-based intrusion prevention system)** is a system that is often built into endpoint protection software / EDRs. These watch for inbound traffic that could be a vulnerability. It also has the ability to secure OS and application configs, having validation security for incoming service requests like updates.
 

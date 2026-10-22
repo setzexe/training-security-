@@ -16,7 +16,7 @@ However, these third party vendors are still part of incident response. They can
 
 ## Infrastructure as code
 
-Cloud infrastructure typically refers to the coded side of the system, you describe it as code. What servers, networks, applications, exist in code? Much like regular application code, this can typically be modified to ones liking. 
+Cloud infrastructure typically refers to the coded side of the system, you describe it as code. What servers, networks, applications, exist in code? Much like regular application code, this can typically be modified to ones liking.
 
 Similarly, the code can be used as a reference / blueprint for other code instances for consistency purposes. This is an important concept in cloud computing; versions of cloud can be consistent and perfect each time.
 
@@ -34,11 +34,11 @@ Cloud allows for monolithic applications; these are applications that do a whole
 
 APIs are a set of rules and protocols that allow different software applications to share data / communicate with one another. This API allows direct and trusted connection and I/O from client to server.
 
-These work together to act as the application; you usually do not act with the server itself. You talk to the API gateway which talks to the server. 
+These work together to act as the application; you usually do not act with the server itself. You talk to the API gateway which talks to the server.
 
 These are scalable in cloud. You can have the client interact with one API gateway, which can talk to multiple microservices. And these are quite contained and secure in a sense that if one service gets affected, the others do not simply because they are not directly communicating to one another.
 
-# Network Infrastructure Concepts 
+# Network Infrastructure Concepts
 
 These are more related to physical networks and how they are handled.
 
