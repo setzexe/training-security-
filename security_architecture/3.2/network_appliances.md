@@ -35,4 +35,4 @@ These take incoming loads of traffic and balances it across different servers. A
 
 Collectors aggregate information from network devices. These are typically integrated into switches, routers, firewalls, etc. These can compile statistics and make them available to those who want them.
 
-Network sensors work much like their physical form; they sense for any intrusions or malicious activity and alert accordingly.
+Network sensors work much like their physical form; they sense for any intrusions or malicious activity and alert accordingly. These can be used in IPS's, firewall logs, web server access logs, etc.
