@@ -8,7 +8,7 @@ Some organizations have multiple clouds under one network. Although this has ben
 
 It can simply also be timely and difficult to log multiple systems at once. And when logging / handling extra data due to new cloud systems, thats an entire new layer of potential data that could leak.\
 
-## Third=party vendors in the cloud
+## Third party vendors in the cloud
 
 There can be third party vendors applied to parts of the cloud. A third party firewall for an application on the cloud is an example. Much like other security practices regarding applications, risk assessment and monitoring is important. How trustworthy are these??
 
