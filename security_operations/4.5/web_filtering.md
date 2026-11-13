@@ -18,7 +18,7 @@ A proxy sits between users and the internet. When a user makes a request, it goe
 
 ## Forward Proxy
 
-This is for internal users going outbound the internet. It forwards traffic from your network to the outside. It usually protects / controls user access to the internet. 
+This is for internal users going outbound the internet. It forwards traffic from your network to the outside. It usually protects / controls user access to the internet.
 
 A **reverse proxy** is this but the opposite side; the proxy sends the server requests coming in from the internet.
 
